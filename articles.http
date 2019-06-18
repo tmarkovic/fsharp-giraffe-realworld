@@ -1,0 +1,12 @@
+# GET https://localhost:5001/articles HTTP/1.1
+
+
+POST https://localhost:5001/articles HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "How to train your girlfriend",
+    "description": "Ever wonder how?",
+    "body": "You have to believe",
+    "tagList": ["reactjs", "angularjs", "dragons"]
+}
